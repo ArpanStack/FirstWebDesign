@@ -1,0 +1,40 @@
+body {
+  background-color: darkseagreen;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-color: grey;
+  border-width: 4px;
+}
+
+img {
+  border-radius: 100%;
+}
+caption{
+  text-align: center;
+  display: none;
+}
+
+.Profile {
+  background-color: lavenderblush;
+  text-align: center;
+  margin-left:
+    /*15%*/
+    auto;
+  margin-right:
+    /*15%*/
+    auto;
+  width: 70%;
+  caption-side: bottom;
+}
+
+.Profile:hover {
+  background-color: #fbdcc4;
+}
+.Profile:hover caption{
+  display: table-caption;
+  font-size: 15px;
+  color: #6e6d6d;
+}
