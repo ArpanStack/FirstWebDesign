@@ -6,21 +6,29 @@
   <title>Contact Here</title>
 </head>
 
-<body>
+<body style="background-color:powderblue;">
   <h1>My Contact Details</h1>
   <h3>Mobile: 9475019541</h3>
   <h3>E-mail: arpan.m@aai.aero</h3>
   <h3>City: Konnagar</h3>
   <form class="" action="mailto:arpanmar29@rediffmail.com" method="post" enctype="text/plain">
-    <label for="">Your Name:</label>
-    <input type="text" name="Name" value="" required><br><br>
-    <label for="">Do you want to subscribe? </label>
-    <input type="checkbox" name="subsribed" value="Y"><br><br>
-    <label for="">Upload Your Photo:</label>
-    <input type="file" name="Photo" accept="image/jpeg,image/gif,image/x-png"><br><br>
-    <label for="">Your Message:</label><br>
-    <textarea name="Message" rows="8" cols="80"></textarea>
-    <input type="submit" value="subcribe">
+    <div>
+      <label for="name">Your Name:</label>
+      <input id="name" type="text" name="Name" value="" required autofocus>
+    </div><br>
+    <div>
+      <label for="subscribe">Do you want to subscribe? </label>
+      <input id="subscribe" type="checkbox" name="subsribed" value="Y">
+    </div><br>
+    <div>
+      <label for="photo">Upload Your Photo:</label>
+      <input id="photo" type="file" name="Photo" accept="image/jpeg,image/gif,image/x-png">
+    </div><br>
+    <div>
+      <label for="comments">Your Message:</label><br>
+      <textarea id="comments" name="Message" rows="8" cols="80" placeholder="Any Comments?"></textarea>
+      <input type="submit" value="subcribe">
+    </div><br>
   </form>
 </body>
 
